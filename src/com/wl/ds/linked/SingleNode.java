@@ -13,7 +13,7 @@ public class SingleNode {
     @Override
     public String toString() {
         return "SingleNode{" +
-                "name='" + name +
+                "name=" + name +
                 '}';
     }
 }

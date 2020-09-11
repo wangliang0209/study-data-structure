@@ -37,4 +37,21 @@ public class SingleLinkedList {
             temp = temp.next;
         }
     }
+
+    //获取单链表长度
+    public int getLength() {
+        if(head.next == null) {
+            return 0;
+        }
+
+        int len = 1;
+        SingleNode temp = head.next;
+        while (temp.next != null) {
+            len++;
+            temp = temp.next;
+        }
+
+        return len;
+    }
+
 }

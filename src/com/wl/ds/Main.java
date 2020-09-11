@@ -25,5 +25,7 @@ public class Main {
         list.add(node);
 
         list.list();
+
+        System.out.println("single linkedlist len:" + list.getLength());
     }
 }
